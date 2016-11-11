@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CookiesAndOven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bactes A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7U-Fp-dDU">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKg-He-Dkc">
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bactes B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56g-UL-PGI">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjP-eK-o7e">
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bactes C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzY-yJ-Fy2">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LD4-8Q-tlT">
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cookies Monitor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1M-iX-Ffm">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-zx-1uJ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ciF-DK-LUd"/>
+                                    <constraint firstAttribute="width" constant="75" id="mcH-u7-LK9"/>
+                                </constraints>
+                                <state key="normal" title="Put Bactes"/>
+                                <connections>
+                                    <action selector="onBactesAButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cxK-b7-0hg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9A7-bl-50Y">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="rUl-i4-GPf"/>
+                                </constraints>
+                                <state key="normal" title="Put Bactes"/>
+                                <connections>
+                                    <action selector="OnBactesBButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ljb-ER-Ez8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer : 60" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDu-wI-dDd">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBL-6K-wPw">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="cfa-Le-3TU"/>
+                                </constraints>
+                                <state key="normal" title="Put Bactes"/>
+                                <connections>
+                                    <action selector="OnBactesCButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9M-he-A7P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDn-eW-Yxt">
+                                <frame key="frameInset" minX="146" minY="318" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Timer "/>
+                                <connections>
+                                    <action selector="onTimerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sy1-aP-mpC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="qDu-wI-dDd" secondAttribute="trailing" constant="10" id="24b-Px-4Ih"/>
+                            <constraint firstItem="9A7-bl-50Y" firstAttribute="top" secondItem="LD4-8Q-tlT" secondAttribute="top" id="2qq-MG-4Lq"/>
+                            <constraint firstItem="NBL-6K-wPw" firstAttribute="top" secondItem="qKg-He-Dkc" secondAttribute="top" id="2su-85-z8n"/>
+                            <constraint firstItem="qDu-wI-dDd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="3V5-7c-mQW"/>
+                            <constraint firstItem="sKj-zx-1uJ" firstAttribute="top" secondItem="tjP-eK-o7e" secondAttribute="top" id="4wk-Yg-39m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="56g-UL-PGI" secondAttribute="trailing" constant="10" id="93X-dM-MCW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9A7-bl-50Y" secondAttribute="trailing" constant="10" id="9hw-Hg-oJ0"/>
+                            <constraint firstItem="qKg-He-Dkc" firstAttribute="top" secondItem="BzY-yJ-Fy2" secondAttribute="bottom" constant="10" id="DJ8-in-kdC"/>
+                            <constraint firstItem="tjP-eK-o7e" firstAttribute="top" secondItem="G7U-Fp-dDU" secondAttribute="bottom" constant="10" id="JTV-0D-AAG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sKj-zx-1uJ" secondAttribute="trailing" constant="10" id="KmV-kj-6BG"/>
+                            <constraint firstItem="LD4-8Q-tlT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="N0e-Zn-7Dp"/>
+                            <constraint firstItem="c1M-iX-Ffm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PdE-O4-ecx"/>
+                            <constraint firstItem="qKg-He-Dkc" firstAttribute="top" secondItem="BzY-yJ-Fy2" secondAttribute="bottom" constant="10" id="QCB-3H-hx7"/>
+                            <constraint firstItem="G7U-Fp-dDU" firstAttribute="top" secondItem="c1M-iX-Ffm" secondAttribute="bottom" constant="10" id="SjK-pY-Qif"/>
+                            <constraint firstItem="sKj-zx-1uJ" firstAttribute="leading" secondItem="tjP-eK-o7e" secondAttribute="trailing" constant="10" id="WGg-HA-GsX"/>
+                            <constraint firstItem="NBL-6K-wPw" firstAttribute="top" secondItem="BzY-yJ-Fy2" secondAttribute="bottom" constant="10" id="X7w-OE-Y8D"/>
+                            <constraint firstItem="c1M-iX-Ffm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="c3a-Oh-smE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G7U-Fp-dDU" secondAttribute="trailing" constant="10" id="clT-wJ-QPl"/>
+                            <constraint firstItem="qKg-He-Dkc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="cuo-jP-3yq"/>
+                            <constraint firstItem="56g-UL-PGI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="dU4-BN-6P6"/>
+                            <constraint firstItem="tjP-eK-o7e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="eHP-yJ-5zb"/>
+                            <constraint firstItem="BzY-yJ-Fy2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="gIw-ON-O2s"/>
+                            <constraint firstItem="NBL-6K-wPw" firstAttribute="leading" secondItem="qKg-He-Dkc" secondAttribute="trailing" constant="10" id="iFJ-7R-1zV"/>
+                            <constraint firstItem="56g-UL-PGI" firstAttribute="top" secondItem="sKj-zx-1uJ" secondAttribute="bottom" constant="10" id="jGD-Ci-mHi"/>
+                            <constraint firstItem="9A7-bl-50Y" firstAttribute="leading" secondItem="LD4-8Q-tlT" secondAttribute="trailing" constant="10" id="kZ1-4E-eAo"/>
+                            <constraint firstItem="qDu-wI-dDd" firstAttribute="top" secondItem="qKg-He-Dkc" secondAttribute="bottom" constant="30" id="n6p-8S-XdG"/>
+                            <constraint firstItem="G7U-Fp-dDU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="oOM-BG-YdQ"/>
+                            <constraint firstItem="c1M-iX-Ffm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="p9E-dg-fpi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NBL-6K-wPw" secondAttribute="trailing" constant="10" id="pYP-JO-ZAV"/>
+                            <constraint firstItem="BzY-yJ-Fy2" firstAttribute="top" secondItem="LD4-8Q-tlT" secondAttribute="bottom" constant="10" id="pc2-Ex-SMR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BzY-yJ-Fy2" secondAttribute="trailing" constant="10" id="vbg-tu-bSg"/>
+                            <constraint firstItem="LD4-8Q-tlT" firstAttribute="top" secondItem="56g-UL-PGI" secondAttribute="bottom" constant="10" id="zN0-rL-0EQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BactesA" destination="tjP-eK-o7e" id="AmI-oH-tvi"/>
+                        <outlet property="BactesB" destination="LD4-8Q-tlT" id="tzW-ZA-2nf"/>
+                        <outlet property="BactesC" destination="qKg-He-Dkc" id="uZI-au-te0"/>
+                        <outlet property="bactesButtonA" destination="sKj-zx-1uJ" id="AKP-b3-xyF"/>
+                        <outlet property="bactesButtonB" destination="9A7-bl-50Y" id="ImD-Fg-ldF"/>
+                        <outlet property="bactesButtonC" destination="NBL-6K-wPw" id="fEJ-34-mpv"/>
+                        <outlet property="timerLabel" destination="qDu-wI-dDd" id="mUm-S0-DbV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-231.19999999999999" y="134.48275862068968"/>
+        </scene>
+    </scenes>
+</document>
